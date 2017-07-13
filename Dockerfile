@@ -1,7 +1,7 @@
 FROM alpine:latest
-MAINTAINER William Huba <william.huba@docurated.com>
+MAINTAINER Lucas Harms <lharms@campuslabs.com> 
 
-ENV VAULT_VERSION 0.6.1
+ENV VAULT_VERSION 0.7.3
 
 RUN apk update && apk add --no-cache \
     openssl \
